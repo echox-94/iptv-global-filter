@@ -14,7 +14,7 @@
 #
 
 # ============================================
-# Pulse Sports Playlist
+# Pulse Global Playlist
 # Generated daily via GitHub Actions
 # ============================================
 
@@ -28,7 +28,7 @@ closed=false
 blocked=false
 
 # Only include channels with EPG guides (has a tvg-id)
-tvg-id~/^.+$/
+# tvg-id~/^.+$/
 
 # Optional: Add specific channels by name (regex)
 # tvg-name~/^ESPN\b/
