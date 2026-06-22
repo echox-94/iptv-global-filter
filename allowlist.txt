@@ -18,8 +18,8 @@
 # Generated daily via GitHub Actions
 # ============================================
 
-# Filter by category (sports only)
-category=Sports
+# Filter by category
+#category=Sports
 
 # Exclude closed channels
 closed=false
