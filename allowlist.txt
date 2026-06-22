@@ -1,0 +1,35 @@
+# exact attribute matches
+# tvg-name=FOX 5
+# tvg-id=CBSNewsChicago.us
+#
+
+# regex by attribute
+# tvg-name~/^PBS\b/
+# group-title~/News|Weather/
+#
+
+# simple contains anywhere (id/name/display/group)
+# Tubi
+# Amagi
+#
+
+# ============================================
+# Pulse Sports Playlist
+# Generated daily via GitHub Actions
+# ============================================
+
+# Filter by category (sports only)
+category=Sports
+
+# Exclude closed channels
+closed=false
+
+# Exclude blocked channels
+blocked=false
+
+# Only include channels with EPG guides (has a tvg-id)
+tvg-id~/^.+$/
+
+# Optional: Add specific channels by name (regex)
+# tvg-name~/^ESPN\b/
+# tvg-name~/^Fox Sports/
