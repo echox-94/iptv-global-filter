@@ -19,7 +19,7 @@
 # ============================================
 
 # Filter by category
-#category=Sports
+# category=Sports
 
 # Exclude closed channels
 closed=false
